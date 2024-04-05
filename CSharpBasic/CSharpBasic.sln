@@ -3,17 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp.csproj", "{8A583F06-C15B-4AB8-8243-B5252C608178}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{E9B4CCC2-3857-4CF9-A714-CAB092EF3EF9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{DE55786B-6F2F-4B2D-803A-9341C74FA2BE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_2", "Lesson_2", "{E6E95673-E099-473D-9B5D-F1E96F630793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_1", "Lesson2\Task_1\Task_1.csproj", "{4D894748-85C0-4287-9ADD-1A26AE987C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task_1", "Lesson2\Task_1\Task_1.csproj", "{4D894748-85C0-4287-9ADD-1A26AE987C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_2", "Lesson2\Task_2\Task_2.csproj", "{75F060CD-2558-42F1-81C7-E339EBE1AE27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task_2", "Lesson2\Task_2\Task_2.csproj", "{75F060CD-2558-42F1-81C7-E339EBE1AE27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A583F06-C15B-4AB8-8243-B5252C608178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A583F06-C15B-4AB8-8243-B5252C608178}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A583F06-C15B-4AB8-8243-B5252C608178}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A583F06-C15B-4AB8-8243-B5252C608178}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE55786B-6F2F-4B2D-803A-9341C74FA2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE55786B-6F2F-4B2D-803A-9341C74FA2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE55786B-6F2F-4B2D-803A-9341C74FA2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE55786B-6F2F-4B2D-803A-9341C74FA2BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D894748-85C0-4287-9ADD-1A26AE987C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D894748-85C0-4287-9ADD-1A26AE987C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D894748-85C0-4287-9ADD-1A26AE987C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,7 +28,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DE55786B-6F2F-4B2D-803A-9341C74FA2BE} = {E9B4CCC2-3857-4CF9-A714-CAB092EF3EF9}
 		{4D894748-85C0-4287-9ADD-1A26AE987C58} = {E6E95673-E099-473D-9B5D-F1E96F630793}
 		{75F060CD-2558-42F1-81C7-E339EBE1AE27} = {E6E95673-E099-473D-9B5D-F1E96F630793}
 	EndGlobalSection
